@@ -2,7 +2,7 @@
   
 Deve ser criado um banco de dados chamado 'me' com a estrutura como mostrada no código abaixo.
 
-<p><code>CREATE DATABASE `me` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;</p>
+```<p>CREATE DATABASE `me` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;</p>
 
 <p>CREATE TABLE `logs` (</p>
   <p>`id` int auto_increment NOT NULL,</p>
@@ -13,7 +13,7 @@ Deve ser criado um banco de dados chamado 'me' com a estrutura como mostrada no 
   <p>`latencies_request` int(11) DEFAULT NULL,</p>
   <p>`log` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL CHECK (json_valid(`log`)),</p>
   <p>PRIMARY KEY (id)</p>
-  <p>)ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;logs</code></p>
+  <p>)ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;logs</p>```
 
 <h2>População dos dados no banco</h2>
   
