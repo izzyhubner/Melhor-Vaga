@@ -18,8 +18,19 @@ Deve ser criado um banco de dados chamado 'me' com a estrutura como mostrada no 
 ``` 
 
 <h2>População dos dados no banco</h2>
-  
-Basta executar o arquivo melhorvaga.ipynb e os dados serão inseridos nas colunas do banco de dados.
+
+<p>Modificar esse trecho de código, caso necessário. Host deve contar o host utilizado na criação do banco de dados, da mesma forma que user e password.</p>
+
+```
+mydb = mysql.connector.connect(
+  host="localhost",
+  user="root",
+  password="",
+  database="me"
+)
+```
+
+Após isso, basta executar o arquivo melhorvaga.ipynb e os dados serão inseridos nas colunas do banco de dados.
 
 <h3>Arquivos finais</h3>
   
